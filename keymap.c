@@ -16,7 +16,7 @@ enum custom_keycodes {
   ADJUST,
 };
 
-#define EISU LALT(KC_GRV)
+#define EISU LCTL(KC_SPC)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
